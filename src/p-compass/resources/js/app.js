@@ -1,3 +1,15 @@
+import React from"react";
+import ReactDOM from"react-dom";
+import"../css/app.css";
+
+if (document.getElementById("root")) {
+  ReactDOM.render(
+    document.getElementById("root")
+  );
+}
+
+
+
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes React and other helpers. It's a great starting point while
@@ -13,3 +25,8 @@ require('./bootstrap');
  */
 
 require('./components/Example');
+
+
+require("./bootstrap");
+
+
