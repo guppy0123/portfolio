@@ -7,8 +7,8 @@ function Example() {
             <div className="row justify-content-center">
                 <div className="col-md-8">
                     <div className="card">
-                        <div className="card-header">これはテストです</div>
-
+                        <div className="card-header">これはテストです!!</div>
+                        <h1 class="text-3xl text-red-500">Hello Tailwind</h1>
                         <div className="card-body">I'm an example component!</div>
                     </div>
                 </div>
