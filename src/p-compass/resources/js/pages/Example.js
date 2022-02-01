@@ -11,7 +11,7 @@ function Example() {
                         <div className="card-header">React導入できたわな</div>
                         <h1 class="text-3xl text-red-500">Hello Tailwind</h1>
                         <div className="card-body">pages下に移動出来た？？</div>
-                        <Button color="secondary" variant="contained">ワイがMaterial-UIのボタンやな？？</Button>
+                        <Button color="secondary" variant="contained">Homeに遷移ボタン</Button>
                     </div>
                 </div>
             </div>
@@ -21,10 +21,3 @@ function Example() {
 
 export default Example;
 
-if (document.getElementById('app')) {
-    ReactDOM.render(<Example />, document.getElementById('app'));
-}
-
-
-
-<h1 class="text-3xl text-red-500">Hello Tailwind</h1>

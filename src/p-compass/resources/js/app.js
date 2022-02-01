@@ -10,7 +10,7 @@ if (document.getElementById("root")) {
 
 
 require('./bootstrap');
-require('./pages/Example');
+require('./route');
 require("./bootstrap");
 
 
