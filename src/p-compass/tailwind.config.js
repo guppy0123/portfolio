@@ -11,6 +11,8 @@ module.exports = {
         extend: {
           colors:{
             primary: '#74C13A',
+            primary1: '#64A32F',
+            footer: '#F5F5F3',
             secondary:{
               100: '#E2E2D5',
               200: '#888883',
@@ -21,4 +23,7 @@ module.exports = {
           }
         },
       },
+      variants:{
+        fontSize: ['responsive', 'hover', 'focus'],
+    },
   };
