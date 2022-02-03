@@ -25,7 +25,7 @@ function Home() {
   <body className="flex flex-col">
 
     {/* 画像挿入する */}
-    <div className="relative bg-white rounded over-flow-hidden">
+    {/* <div className="relative bg-white rounded over-flow-hidden">
      <img
      src="./components/home.jpeg"
      alt="practice-image"
@@ -55,7 +55,7 @@ function Home() {
     <div className="flex-grow">
       <container className="bg-white">
       </container>
-    </div>
+    </div> */}
   </body>
 
  <footer className="bottom-0 h-64 p-8 bg-footer relative">
