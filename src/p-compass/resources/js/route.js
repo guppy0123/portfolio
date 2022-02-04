@@ -7,11 +7,11 @@ import {
   } from 'react-router-dom';
 
 import About from './pages/About';
-import Dashboard from './pages/Dashboard';
+import Dashboard from './pages/members/Dashboard';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import Setting from './pages/Setting';
+import Setting from './pages/members/Setting';
 
   function App() {
     return (
@@ -23,6 +23,7 @@ import Setting from './pages/Setting';
                 <Route path='/login' exact component={Login} />
                 <Route path='/register' exact component={Register} />
                 <Route path='/setting' exact component={Setting} />
+
             </Switch>
         </div>
     );
