@@ -44,9 +44,10 @@ function Home() {
            lg:text-lg lg:pb-16
            xl:text-4xl ">あなたの望む未来を作る</div>
            <div class="absolute  bg-primary hover:bg-primary1 cursor-pointer text-gray  font-bold rounded-full text-center
-            right-1/4 w-1/2    text-white pt-2 pb-1
-            md:text-2xl
-           lg:top-32 lg:bottom-8  ">計画を作る
+             right-1/4 w-1/2   mp-4  text-white pt-2 pb-2
+             md:text-2xl
+
+            lg:top-42 lg:bottom-8 ">計画を作る
            </div>
          </div>
      </div>
