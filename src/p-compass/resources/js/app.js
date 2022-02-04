@@ -11,6 +11,5 @@ if (document.getElementById("root")) {
 
 require('./bootstrap');
 require('./route');
-require("./bootstrap");
 
 
