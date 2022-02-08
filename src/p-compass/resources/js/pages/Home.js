@@ -39,7 +39,7 @@ function Home() {
            lg:top-42 lg:bottom-8"
 
            >
-            <Link to="/about">
+            <Link to="/about" style={{ color: '#FFF' }} >
             計画を作る
             </Link>
            </div>

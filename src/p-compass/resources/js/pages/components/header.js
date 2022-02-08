@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const header=() => {
@@ -10,8 +11,11 @@ const header=() => {
     <nav className="flex p-3 objects-center justify-between">
       <h2 className="text-white font-bold cursor-pointer
       pt-2 text-4xl
-      text-center">P-compass</h2>
-
+      text-center">
+          <Link to="/" style={{ color: '#FFF' }} >
+          P-compass
+          </Link>
+        </h2>
      </nav>
   </header>
 </body>
