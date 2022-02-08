@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 import Header from './components/header';
 
 function Home() {
@@ -32,10 +33,15 @@ function Home() {
            sm:pb-4
            lg:text-lg lg:pb-16
            xl:text-4xl ">あなたの望む未来を作る</div>
-           <div class="absolute  bg-primary hover:bg-primary1 cursor-pointer text-gray  font-bold rounded-full text-center
+           <div class="absolute  bg-gray-500 hover:bg-gray-400 cursor-pointer text-gray  font-bold rounded-full text-center
             right-1/4 w-1/2    text-white pt-2 pb-1
             md:text-2xl
-           lg:top-42 lg:bottom-8  ">計画を作る
+           lg:top-42 lg:bottom-8"
+
+           >
+            <Link to="/about">
+            計画を作る
+            </Link>
            </div>
          </div>
      </div>
@@ -56,7 +62,7 @@ function Home() {
         あなたが達成したい目標を達成するためのタスクを
         </div>
         <div className="text-sm   md:text-2xl lg:text-4xl text-center p-1 whitespace-pre overflow-x-auto">
-        計画・管理するToDo計画管理サービスです
+        計画・管理するToDo管理サービスです
         </div>
       </div>
     </div>
